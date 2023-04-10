@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Version>0.1.0</Version>
     <Description>A poor implementation of the SilkyNvg renderer for vulkan.
 It has some issues and uses poor code style but has the basic functionallity.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -27,8 +26,8 @@ It has some issues and uses poor code style but has the basic functionallity.</D
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Silk.NET.Maths" Version="2.8.0" />
-    <PackageReference Include="Silk.NET.Vulkan" Version="2.8.0" />
+    <PackageReference Include="Silk.NET.Maths" Version="2.17.1" />
+    <PackageReference Include="Silk.NET.Vulkan" Version="2.17.1" />
   </ItemGroup>
 
 </Project>
